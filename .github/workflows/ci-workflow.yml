@@ -36,7 +36,7 @@ concurrency:
 jobs:
   ci_workflow:
     name: Run
-    uses: OpenDevicePartnership/patina-devops/.github/workflows/CiWorkflow.yml@v0.3.12
+    uses: makubacki/patina-devops/.github/workflows/CiWorkflow.yml@allow_runner_os_cutomization_drop_arm_mtrr_test
     with:
       build-tasks: build
       run-cargo-vet: false
